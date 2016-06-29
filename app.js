@@ -2,12 +2,12 @@ var count = 0;
 
 function cc(card) {
  // Only change code below this line
- if (card == (2 | 3 | 4 | 5 |6)) {
+ if (card == 2 | card == 3 | card == 4 | card == 5 | card == 6) {
    count = 1;
- } else if (card == (10 | 'J' | 'Q' | 'K' | 'A')) {
+ } else if (card === (10 | 'J' | 'Q' | 'K' | 'A')) {
    count = -1;
  }
- //console.log(count + " ");
+ console.log(count);
 
  if (count > 0){
    console.log(count + " Bet");
