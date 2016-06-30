@@ -38,7 +38,7 @@ function cc(card) {
 
     // Assign a -1, 0, or 1 to "count" based on "card" value
     if (card == 7 | card == 8 | card == 9) {
-        // do nothing
+        /* do nothing */
     } else if (card == 2 | card == 3 | card == 4 | card == 5 | card == 6) {
         count++;
     } else {
