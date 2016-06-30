@@ -9,7 +9,7 @@ var count = 0;
 
 function cc(card) {
  // Only change code below this line
- if (card === 0){
+ if (card == 7 | card == 8 | card == 9){
    // do nothing
  } else if (card == 2 | card == 3 | card == 4 | card == 5 | card == 6) {
    count++;
@@ -31,5 +31,6 @@ function cc(card) {
 
 // Add/remove calls to test your function.
 // Note: Only the last will display
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+//cc(2); cc(3); cc(7); cc('K'); cc('A');
+cc(7); cc(8); cc(9);
 //
